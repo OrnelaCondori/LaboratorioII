@@ -1,4 +1,4 @@
-package tp_UML_punto1;
+package tp_UML_punto2;
 
 public class Piloto extends Persona implements Volador{
     private int licencia;

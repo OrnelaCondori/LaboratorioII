@@ -1,4 +1,4 @@
-package tp_UML_punto1;
+package tp_UML_punto2;
 
 public class Avion {
     private String aerolinea;

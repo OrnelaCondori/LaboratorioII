@@ -1,17 +1,16 @@
-package tp_UML_punto1;
+package tp_UML_punto2;
 
 public class Vuelo {
     private String destino;
     private String horario;
-    private Avion numAvion;
+    private Avion avion;
 
     public Vuelo() {
     }
 
-    public Vuelo(String destino, String horario, Avion numAvion) {
+    public Vuelo(String destino, String horario) {
         this.destino = destino;
         this.horario = horario;
-        this.numAvion = numAvion;
     }
 
     public String getDestino() {
@@ -23,13 +22,16 @@ public class Vuelo {
     public String getHorario() {
         return horario;
     }
+
     public void setHorario(String horario) {
         this.horario = horario;
     }
-    public Avion getNumAvion() {
-        return numAvion;
+
+    public void setAvion(Avion avion) {
+        this.avion = avion;
     }
-    public void setNumAvion(Avion numAvion) {
-        this.numAvion = numAvion;
+
+    public Avion getAvion() {
+        return avion;
     }
 }
